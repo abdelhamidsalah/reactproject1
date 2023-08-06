@@ -1,0 +1,43 @@
+#sec1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    width: 100%;
+}
+#sec1 img{
+    width: 80%;
+    border-radius: 20px;
+    height: 100%;
+}
+#secw1{
+    margin-top: 20px;
+}
+#secw1 h2{
+    line-height: 50px;
+    color: #571c1d;
+   
+}
+#secw1 p{
+    line-height: 30px;
+    
+}
+#secw1 button{
+    color: white;
+    background-color: #ab2c4c;
+    border: 2px solid #ab2c4c;
+    width: 50%;
+    font-weight: bold;
+}
+#secw1 button:hover{
+    color: #ab2c4c;
+    background-color: white;
+    border: 2px solid #ab2c4c;
+    transition: 0.5s ease-in-out;
+}
+@media (max-width:768px){
+    #sec1{
+        flex-direction: column;
+        text-align: center;
+    }
+}

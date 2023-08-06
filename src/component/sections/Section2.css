@@ -1,0 +1,59 @@
+#sec2{
+    margin-top: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+#sec2 img{
+    width: 100%;
+}
+
+#secw2 h2{
+    width: 70%;
+    color: #571c1d;
+    line-height: 40px;
+}
+#secw2 p{
+    width: 65%;
+    line-height: 30px;
+    margin: 20px 0px 20px 0px;
+    font-size: 1.2em;
+    color: grey;
+}
+#secw2 button{
+    color: white;
+    background-color: #ab2c4c;
+    border: 2px solid #ab2c4c;
+    width: 50%;
+    font-weight: bold;
+    margin-top: 50px;
+}
+#secw2 button:hover{
+    color: #ab2c4c;
+    background-color: white;
+    border: 2px solid #ab2c4c;
+    transition: 0.5s ease-in-out;
+}
+#secw2 span{
+    margin-bottom: 10px;
+    color: grey;
+}
+#secw2 i{
+    color: #571c1d;
+}
+@media (max-width:768px){
+    #sec2{
+        flex-direction: column;
+        text-align: center;
+    }
+    #secw2 h2 , #secw2 p,#secw2 button{
+        margin: auto;
+    }
+    #secw2 button{
+        margin-top: 50px;
+    }
+    #secw2 span{
+      margin-top: 20px;
+    }
+}

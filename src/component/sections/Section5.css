@@ -1,0 +1,27 @@
+#sec5{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+#sec5 #ww{
+    color: #571c1d;
+    font-size: 1.2em;
+}
+#sec5 button{
+    color: white;
+    background-color: #ab2c4c;
+    border: 2px solid #ab2c4c;
+    border-radius: 0;
+    font-weight: bold;
+    width: 100%;
+}
+@media  (max-width:800px){
+    #sec5{
+        flex-direction: column;
+    }
+    #ccc , #aaa , #ddd{
+        margin: auto;
+        margin-top: 12px;
+    }
+}

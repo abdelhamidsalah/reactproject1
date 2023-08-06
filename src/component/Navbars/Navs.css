@@ -1,0 +1,27 @@
+#nnvv{
+    background-color: #fff;
+    width: 100%; 
+    max-width: 100%;
+    height: auto;
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+}
+nav a{
+    color: #ab2c4c !important;
+    font-size: 1.3em !important;
+    font-weight: bold !important;
+}
+#btn{
+    color: white !important;
+    background-color: #ab2c4c;
+    text-align: center;
+    border: 2px solid #ab2c4c ;
+    transition: 0.5s ease-in-out;
+   
+   
+}
+#btn:hover{
+    color: #ab2c4c !important;
+    background-color: #fff ;
+}

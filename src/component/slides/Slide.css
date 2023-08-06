@@ -1,0 +1,23 @@
+#wos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #ab2c4c;
+    height: 160px;
+    width: 100%;
+}
+.w{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    
+}
+.w p{
+    font-size: 2.2em;
+}
+@media(max-width:500px){
+    .w p{
+        font-size: 1.2em;
+    }
+}

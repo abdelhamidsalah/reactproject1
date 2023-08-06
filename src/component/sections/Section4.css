@@ -1,0 +1,22 @@
+#sec4{
+    margin-top: 90px;
+    width: 100%;
+    text-align: center;
+}
+#sec4 h2{
+    color: #571c1d;
+    font-size: 2em;
+}
+#sec4 p{
+    width: 60%;
+    padding-top: 20px;
+    margin: auto;
+    line-height: 30px;
+    font-size: 1.1em;
+}
+@media(max-width:451px)
+{
+    #sec4 p{
+        width: 100%;
+    }
+}
